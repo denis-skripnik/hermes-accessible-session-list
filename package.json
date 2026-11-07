@@ -1,0 +1,16 @@
+{
+  "name": "hermes-accessible-session-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Accessible native session picker for Hermes Desktop",
+  "license": "MIT",
+  "author": "Denis Skripnik",
+  "homepage": "https://github.com/denis-skripnik/hermes-accessible-session-list",
+  "engines": { "node": ">=26" },
+  "scripts": {
+    "test": "node --test test/session-list-tests.cjs",
+    "test:browser": "node test/session-list-browser.cjs",
+    "screenshot": "node test/session-list-browser.cjs --screenshot"
+  },
+  "devDependencies": { "jsdom": "29.1.1", "playwright": "1.64.0" }
+}

@@ -1,0 +1,13 @@
+name: accessible-session-list
+version: "1.0.0"
+description: "Accessible native session picker with search and keyboard navigation for Hermes Desktop."
+author: Denis Skripnik
+homepage: https://github.com/denis-skripnik/hermes-accessible-session-list
+license: MIT
+kind: standalone
+requires_hermes: ">=0.22.5"
+platforms: []
+provides_tools: []
+provides_hooks: []
+provides_middleware: []
+requires_env: []
